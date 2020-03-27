@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+    h2 {
+        color: $bodyfont;
+        text-align: center;
+        margin-top: 20px;
+    }
+    h1 {
+        color: $hover;
+    }
+}
+img {
+    padding-top: 25px;
+}
+.col-sm-4 {
+    h1 {
+        float: right;
+        margin-top: 300px;
+        font-size: 50px;
+    }
+    .pic2 {
+        width: 250px;
+    }
+    .pic3 {
+        width: 250px;
+    }
+}
+

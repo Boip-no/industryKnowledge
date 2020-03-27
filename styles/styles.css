@@ -1,0 +1,76 @@
+header {
+  width: 100%;
+}
+
+.navbar-brand {
+  height: auto;
+  max-width: 400px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    position: relative;
+  }
+}
+nav {
+  background-color: #333333;
+  height: 60px;
+}
+nav img {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+nav button {
+  width: 100px;
+  padding: 20px 10px;
+  background-color: whitesmoke;
+  margin-top: 35px;
+}
+
+.navbar h2 {
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000;
+}
+.navbar h2:hover {
+  color: #F23005;
+}
+
+body {
+  background-color: lightgray;
+}
+body h2 {
+  color: #0468BF;
+  text-align: center;
+  margin-top: 20px;
+}
+body h1 {
+  color: #F23005;
+}
+
+img {
+  padding-top: 25px;
+}
+
+.col-sm-4 h1 {
+  float: right;
+  margin-top: 300px;
+  font-size: 50px;
+}
+.col-sm-4 .pic2 {
+  width: 250px;
+}
+.col-sm-4 .pic3 {
+  width: 250px;
+}
+
+footer {
+  background-color: black;
+  font-size: 11px;
+}
+
+/*# sourceMappingURL=styles.css.map */
