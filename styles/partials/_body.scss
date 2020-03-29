@@ -1,28 +1,61 @@
 body {
-    background-color: lightgray;
+    background-color: #000;
+    text-align: center;
     h2 {
         color: $bodyfont;
-        text-align: center;
-        margin-top: 20px;
+        
+        margin-top: 50px;
     }
     h1 {
         color: $hover;
+    }
+    h5 {
+        margin-top: 50px;
     }
 }
 img {
     padding-top: 25px;
 }
-.col-sm-4 {
+
+#col1 {
+    button {
+        height: 123px;
+        width: 123px;
+        padding: 20px 10px;
+        border: 5px solid;
+        background-color: whitesmoke;
+        margin-top: 35px;
+    }
+    .button-left {
+        margin: auto;
+        margin-right: 15px;
+    }
+    
+    .button-right {
+        margin: auto;
+        margin-left: 15px;
+    }
+    .row {
+        p {
+            width: 350px;
+            color: black;
+            
+        }
+    }
+}
+.col-sm-4 {      
     h1 {
         float: right;
-        margin-top: 300px;
+        margin-top: 150px;
         font-size: 50px;
     }
-    .pic2 {
-        width: 250px;
+
+    img {
+        width: 150px;
     }
-    .pic3 {
-        width: 250px;
-    }
+}
+
+.container {
+    background-color: whitesmoke;
 }
 

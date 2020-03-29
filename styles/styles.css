@@ -1,7 +1,3 @@
-header {
-  width: 100%;
-}
-
 .navbar-brand {
   height: auto;
   max-width: 400px;
@@ -11,23 +7,18 @@ header {
   top: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .navbar-brand {
-    position: relative;
-  }
-}
 nav {
-  background-color: #333333;
+  background-color: #1e1e1e;
   height: 60px;
 }
 nav img {
   width: 150px;
   height: auto;
-  text-align: center;
 }
 nav button {
   width: 100px;
   padding: 20px 10px;
+  border: 5px solid;
   background-color: whitesmoke;
   margin-top: 35px;
 }
@@ -41,36 +32,68 @@ nav button {
 }
 
 body {
-  background-color: lightgray;
+  background-color: #000;
+  text-align: center;
 }
 body h2 {
   color: #0468BF;
-  text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 body h1 {
   color: #F23005;
+}
+body h5 {
+  margin-top: 50px;
 }
 
 img {
   padding-top: 25px;
 }
 
+#col1 button {
+  height: 123px;
+  width: 123px;
+  padding: 20px 10px;
+  border: 5px solid;
+  background-color: whitesmoke;
+  margin-top: 35px;
+}
+#col1 .button-left {
+  margin: auto;
+  margin-right: 15px;
+}
+#col1 .button-right {
+  margin: auto;
+  margin-left: 15px;
+}
+#col1 .row p {
+  width: 350px;
+  color: black;
+}
+
 .col-sm-4 h1 {
   float: right;
-  margin-top: 300px;
+  margin-top: 150px;
   font-size: 50px;
 }
-.col-sm-4 .pic2 {
-  width: 250px;
+.col-sm-4 img {
+  width: 150px;
 }
-.col-sm-4 .pic3 {
-  width: 250px;
+
+.container {
+  background-color: lightgray;
 }
 
 footer {
   background-color: black;
   font-size: 11px;
+  padding: 5px;
+  color: #F23005;
+}
+
+.carousel {
+  background-size: contain;
+  width: 65%;
 }
 
 /*# sourceMappingURL=styles.css.map */

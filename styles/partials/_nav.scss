@@ -1,35 +1,24 @@
-header {
-    width: 100%;
-  }
+.navbar-brand {
+height: auto;
+max-width: 400px;
+padding: 0;
+position: absolute;
+right: 0;
+top: 0;
+}
   
-  .navbar-brand {
-    height: auto;
-    max-width: 400px;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .navbar-brand {
-      position: relative;
-    }
-  }
-
-
 nav {        
-    background-color: #333333;
+    background-color: #1e1e1e;
     height: 60px;
 
     img {
         width: 150px;
         height: auto;
-        text-align: center;
     }
     button {
         width: 100px;
         padding: 20px 10px;
+        border: 5px solid;
         background-color: whitesmoke;
         margin-top: 35px;
     }
@@ -42,6 +31,6 @@ nav {
             text-shadow: 2px 2px 4px #000;
         }
         h2:hover {
-            color: #F23005;
+            color: $hover;
         }
 }
