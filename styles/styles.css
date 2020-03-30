@@ -69,6 +69,13 @@ img {
 #col1 .row p {
   width: 350px;
   color: black;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
+.col5 .row p {
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .col-sm-4 h1 {
